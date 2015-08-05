@@ -22,7 +22,7 @@
 
               <ul class="nav navbar-nav">
 
-                <li class=" yamm-fw"> <a href="/" class="active">Home</a>
+                <li class=" yamm-fw"> <a href="/">Home</a>
 
 
                 </li>

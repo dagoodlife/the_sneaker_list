@@ -95,7 +95,7 @@
     ======================================= -->
 
     <!-- masterslider -->
-    <div class="about-us-header">
+    <div class="shoe-request-header">
 
 
         <h2 class="title25">Shoe Request<em>Any pair of sneakers, just one request away.</em>
@@ -194,25 +194,23 @@
                         </div>
 
                         <div class="quiz-question unactive" id="step-3">
-                            <h5><em>What <strong>Size</strong> shoe are you?</em></h5>
-                            <label class="shoe-request-info" id="shoeSizeWrapper" >
-                                <label class="one-third">
-                                    <span id="mensShoeSize"><em>10</em> <br/> Men Size</span> <br>
-                                    <input class="shoe-size" type="radio" name="size" id="shoeSizeM" value="10">
-                                </label>
-                                <label class="one-third">
-                                    <span id="womanShoeSize"><em>8.5</em> <br/> Woman Size </span><br>
-                                    <input class="shoe-size" type="radio" name="size" id="shoeSizeW" value="8.5">
-                                </label>
-                                <label class="one-third">
-                                    <span id="kidsShoeSize"><em>9</em> <br/> Kids Size</span><br>
-                                    <input class="shoe-size" type="radio" name="size" id="shoeSizeK" value="9">
-                                </label>
-                            </label>
+                            <h5><em>What <strong>Size</strong> shoe are you?</em><br/><span>(Ex: "Mens 11" "Womans 6" ect..)</span></h5>
+                            <div class="shoe-request-info" id="shoeSizeWrapper" >
+            
 
-                            <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
-                            <div id="sliderToolTip">Slide left and right to change shoe size!<br/><span id="bottomPointer"></span><span id="bottomPointerBorder"></span></div>
-                            <div id="slider"></div>
+                                <div class="one-half">
+                                    <input id="shoeSizeInput" type="input" name="shoe_size" ><br/>
+                                    <button class="next-model shoe-size-submit">
+                                        <div class="" id="ModelNext" >Next</div>
+                                    </button>
+                                </div>
+                                    
+                                
+
+                                
+                            </div>
+
+                            
                         </div>
 
 
@@ -252,7 +250,7 @@
                             <tr class="order-info">
                                 <td id="brandName"></td>
                                 <td id="modelName"></td>
-                                <td id="shoeSize"></td>
+                                <td id="shoeSize">8.5</td>
                                 <td id="requestPrice">$14.99</td>
                             </tr>
                         </table>
@@ -265,19 +263,18 @@
                         <div id="shoeInfo">
 
                             <div class="info-label-wrapper">
-                                <div id="shoeBrand">Nike <span id="shoeModel"> Lucky 7 SB</span></div>
+                                <div id="brandName">Nike <span id="modelName"> Lucky 7 SB</span></div>
                             </div>
                             <div class="info-label-wrapper">
-                                <div id="shoeSizeBox">
-                                    <span id="userSize">8.5</span>
-                                    <span>US Men</span>
+                                <div id="requestPrice">
+                                   
                                 </div>
                             </div>
                             <div id="miniBrandLogo"></div>
                         </div>
                     </div>
 
-                    <div id="siteName">www.TheSneakerListInc.com</div>
+                    <div id="siteName">www.TheSneakerList.com</div>
                 </form>
                 </div>
             </div>

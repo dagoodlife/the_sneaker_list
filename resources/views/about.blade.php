@@ -17,7 +17,7 @@
     <link rel="shortcut icon" href="images/favicon.ico">
     
     <!-- this styles only adds some repairs on idevices  -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=1200">
     
     <!-- Google fonts - witch you want to use - (rest you can just remove) -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
@@ -126,7 +126,7 @@
     <div class="one_full stcode_title9">
 
             <h2>The Sneaker List Inc
-            <em>Want. Request. Have.</em>
+            <em>Want. Request. Receive.</em>
             <span class="line"></span></h2>
             <p>​We are a professional group of individuals that live for and by the sneaker industry. For years we have strengthened relationships with the top distributors in order to provide our clients with only the finest products in the market. Allowing us to have​ access to ​ thousands of authentic sneakers, which we hand select and examine to specifically exceed your expectations. Virtually no pair, no matter how rare, can hide from us. We are obsessive and diligent in our craft that’s why we consider each pair to be a work of art.​ ​Let us know what you have in mind, and we'll get looking!</p>
             
@@ -140,7 +140,7 @@
             <h4>You Request.</h4>
             <p>Any pair of Sneakers you can imagine yourself in... </p>
             <br /><br />
-            <a href="#" class="button nineteen">Request</a>
+            <a href="/shoe-request" class="button nineteen">Request</a>
             
         </div><!-- end section -->
         
@@ -161,7 +161,7 @@
             <h4>We Find!</h4>
             <p>We will find them for you and ship them straight to your door. </p>
             <br /><br />
-            <a href="#" class="button nineteen">Request</a>
+            <a href="/shoe-request" class="button nineteen">Request</a>
             
         </div><!-- end section -->
         <div class="clearfix margin_top12"></div>

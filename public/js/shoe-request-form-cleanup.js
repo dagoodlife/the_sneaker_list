@@ -152,7 +152,7 @@
                 shoeRequestWrapper = $(".shoe-request-wrapper"),
                 shoeBoxWrapper = $("#shoeBoxWrapper"),
                 $inputSlider = $( "#slider"),
-                $allShoeSize = $('.shoe-size'),
+                $allShoeSize = $('.shoe-size-submit'),
                 $shoeSize = $( "#amount"),
                 $menSizeInput = $( "#shoeSizeM"),
                 $womanSizeInput = $( "#shoeSizeW"),
@@ -208,36 +208,31 @@
 
             $shoeSize.val( $inputSlider.slider( "value" ) );
             $allShoeSize.on('click', function() {
-                var $self = $(this);
-
-                if($self.is(':checked')) {// If next button is clicked
-
-
-                    $step3.removeClass('active');
-                    $step3Indicator.removeClass('active');
-                    shoeRequestWrapper.addClass('unactive');
-                    shoeBoxWrapper.removeClass('unactive');
-                    setTimeout(function() {
-                        $step3.addClass('unactive');
-                        shoeBoxWrapper.addClass('done');
-                        shoeRequestWrapper.addClass('done');
-                    }, 500);
+                console.log("hello sir");
+                $step3.removeClass('active');
+                $step3Indicator.removeClass('active');
+                shoeRequestWrapper.addClass('unactive');
+                shoeBoxWrapper.removeClass('unactive');
+                setTimeout(function() {
+                    $step3.addClass('unactive');
+                    shoeBoxWrapper.addClass('done');
+                    shoeRequestWrapper.addClass('done');
+                }, 500);
 
                     // Confirm Details Size Output
-                    var $sizeChosenId = $(this).attr('id'); // What is the id of the size the user chose
-                    var $sizeChosenM =  $menSizeLabel.text();
-                    var $sizeChosenW =  $womanSizeLabel.text();
-                    var $sizeChosenK =  $kidsSizeLabel.text();
+                var $sizeChosenId = $(this).attr('id'); // What is the id of the size the user chose
+                var $sizeChosenM =  $menSizeLabel.text();
+                var $sizeChosenW =  $womanSizeLabel.text();
+                var $sizeChosenK =  $kidsSizeLabel.text();
 
-                    if($sizeChosenId == 'shoeSizeM') {
-                        $orderConfirmShoeSize.html($sizeChosenM);
-                    }
-                    else if($sizeChosenId == 'shoeSizeW') {
-                        $orderConfirmShoeSize.html($sizeChosenW);
-                    }
-                    else if($sizeChosenId == 'shoeSizeK') {
-                        $orderConfirmShoeSize.html($sizeChosenK);
-                    }
+                if($sizeChosenId == 'shoeSizeM') {
+                    $orderConfirmShoeSize.html($sizeChosenM);
+                }
+                else if($sizeChosenId == 'shoeSizeW') {
+                    $orderConfirmShoeSize.html($sizeChosenW);
+                }
+                else if($sizeChosenId == 'shoeSizeK') {
+                    $orderConfirmShoeSize.html($sizeChosenK);
                 }
             });
         });

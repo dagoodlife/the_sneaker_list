@@ -790,19 +790,18 @@ html, body
 	margin-top: 22px;
 }
 .menu_rlinks2 a {
-	color: #fff;
-	font-family: 'Raleway', sans-serif;
-	font-size: 13px;
-	font-weight: 600;
-	border: 1px solid #ccc;
-	padding: 8px 20px;
-	border-radius: 25px;
-	transition: all 0.3s ease;
+color: #F9393F;
+font-family: 'Raleway', sans-serif;
+font-size: 13px;
+font-weight: 600;
+border: 1px solid #F9393F;
+padding: 8px 20px;
+border-radius: 25px;
+transition: all 0.3s ease;
 }
 .menu_rlinks2 a:hover {
-	color: #393939;
-	border: 1px solid #fff;
-	background: #fff;
+	color: #fff;
+	background: #F9393F;
 }
 
 .menu_rlinks3 {
@@ -8555,8 +8554,8 @@ ul.adsbanner-list {
 
 .featured_section27 .ms-phone-template .ms-phone-bg {
 	max-width: 100%;
-	position: absolute;
-	margin: 0 0px 0 -50%;
+	display: block;
+	margin: 0 auto;
 }
 
 .featured_section27 .line {
@@ -8823,7 +8822,7 @@ ul.nav>li>a:hover.active {
 }
 
 .about-body .parallax_section2 {
-	background: #393939 url(../images/sneaker-banner-blur-2.png);
+	background: #393939 url(../images/about-parallax.jpg);
 	float: left;
 	width: 100%;
 	text-align: left;
@@ -8987,19 +8986,24 @@ ul.nav>li>a:hover.active {
   ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
  ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
+
 .shoe-request-header {
-	background-position-y: -165px !important;
-	background: url(../images/sneaker-banner-4.jpg) ;
+	background: url(../images/sneaker-banner-10.jpg) ;
 	height: 500px;
-	background-size: auto 675px;
+	background-size: auto;
 	background-position: center;
 	text-align: center;
 }
-.shoe-request-header .title25 {
-	padding-top: 12.5%;
-}
 
+.shoe-request-header .title25 {
+	padding-top: 200px;
+	font-size: 50px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 200;
+	margin-bottom: 65px;
+}
 .shoe-request-header .title25 .line {
+
 	background: #F9393F;
 	height: 3px;
 	display: block;
@@ -9007,6 +9011,23 @@ ul.nav>li>a:hover.active {
 	width: 100px;
 	margin: 18px auto 0 auto;
 }
+
+.shoe-request-header .title25 em {
+	margin: 0 auto;
+	color: #333;
+	font-size: 25px !important;
+	font-family: 'Roboto', sans-serif !important;
+	font-weight: 200 !important;
+	font-style: italic !important;
+	line-height: 28px;
+	display: block;
+	text-transform: none;
+	margin-top: 20px !important;
+}
+
+
+
+
 /* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
  ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   ////////////////////////////////////////////////////////////////////////////////////////////// How It Works Page //////////////////////////////////////////////////////////////////////// 
@@ -9015,12 +9036,39 @@ ul.nav>li>a:hover.active {
 
 .how-header {
 	background-position-y: -165px !important;
-	background: url(../images/sneaker-banner-5.jpg) ;
+	background: url(../images/sneaker-banner-11.jpg) ;
 	height: 500px;
 	background-size: auto 675px;
 	background-position: center;
 	text-align: center;
 }
+
+.how-sneaker-position.last.animate.fadeIn {
+margin-top: -30%;
+left: 0;
+position: absolute;
+}
+
+.how-body .navbar-default .navbar-nav>li>a {
+color: #333;
+}
+
+.how-body .title25 em {
+margin: 0 auto;
+color: #333;
+}
+
+.how-body .header, .request-body .header {
+border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,0)));
+background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+background: -o-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 );
+}
+
 .how-header .title25 {
 	padding-top: 12.5%;
 }
@@ -9115,8 +9163,8 @@ ul.nav>li>a:hover.active {
 }
 
 .contact-sneaker-position.last.animate.fadeIn {
-	margin-top: -13.6%;
-	right: 2%;
+	margin-top: -36%;
+	left: 2%;
 	position: absolute;
 }
 
@@ -9631,6 +9679,14 @@ input[type="checkbox"].shoe-model {
 	width: 22%;
 }
 
+.shoe-size-hidden {
+	display: none;
+}
+
+.one-third-1 {
+	width: 33%;
+}
+
 #step-3 .shoe-request-info span em {
 	font-size: 42px;
 	margin: 5px;
@@ -10012,10 +10068,7 @@ input[type="checkbox"].shoe-model {
 	text-align: center;
 }
 
-.gallery-sneakers-position.last.animate.fadeIn {
-	margin-top: -29.8%;
-	position: absolute;
-}
+
 
 .title25 {
 	position: relative;
@@ -10085,17 +10138,15 @@ input[type="checkbox"].shoe-model {
 	font-family: 'Roboto', sans-serif !important;
 }
 
-.gallery-sneakers-position {
-
-	margin: -30% 0 0 0;
-	float: left;
-	padding: 0 3% 0 0;
+.gallery-sneakers-position.last.animate.fadeIn {
+top: -210px;
+position: absolute;
 }
 
 .request-body .about-sneaker-position {
-	margin-top: -28.6%;
-	right: -2%;
-	position: absolute;
+right: -6%;
+top: 520px;
+position: absolute;
 }
 
 body.request-body {
@@ -10282,4 +10333,42 @@ position: relative;
 height: 45px;
 border: solid 2px #D8D8D8;
 background: #F4F4F4;
+}
+
+#shoeSizeInput {
+width: 80%;
+margin: 0 10% 5%;
+padding: 10px;
+z-index: 999;
+position: relative;
+height: 45px;
+border: solid 2px #D8D8D8;
+background: #F4F4F4;
+}
+
+.shoe-size-submit {
+	background-color: rgba(236, 29, 36, 1);
+border: 1px solid #EC1D24;
+border-radius: 2px;
+color: #FFFFFF;
+cursor: pointer;
+position: relative;
+margin-top: 50px;
+z-index: 9999;
+font: 400 18px "Open Sans", sans-serif;
+padding: 5px 40px;
+-webkit-transition: all .3s ease-in-out;
+transition: all .3s ease-in-out;
+}
+
+.shoe-request-wrapper h5 span {
+color: #555;
+font-size: 16px !important;
+font-family: 'Roboto', sans-serif !important;
+font-weight: 300 !important;
+font-style: italic !important;
+}
+
+.gallery-body #filters-container {
+	display: none;
 }

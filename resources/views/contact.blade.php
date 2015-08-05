@@ -5,7 +5,7 @@
 <!--[if (gt IE 9)|!(IE)]><!--> <html lang="en-gb" class="no-js"> <!--<![endif]-->
 
 <head>
-    <title>LinStar - Responsive MultiPurpose HTML5 Template</title>
+    <title>Sneaker List Contact Page</title>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -97,7 +97,7 @@
 
         <div class="contact-sneaker-position last animate" data-anim-type="fadeIn" data-anim-delay="300">
 
-            <img src="images/nike-trio-cut-out2.png" alt="" />
+            <img src="images/red-jordans-cut-out.png" alt="" />
 
         </div><!-- end section -->
 
@@ -120,7 +120,7 @@
 
         <p>Have a queston? Feel free to message us below with anyhting you have in mind! We are always glad to help out!</p>
         <br />
-        <p>Please be patient while waiting for response.  <strong>Phone General Inquiries: (954) 000-0000</strong></p>
+        <p>Please be patient while waiting for response.  <strong></strong></p>
         <br /><br />
 
         <div class="cforms">
@@ -140,7 +140,7 @@
                 <input type="email" name="email" id="email">
             </label>
 
-            <!-- <div class="clearfix"></div>
+            <div class="clearfix"></div>
 
 
             <label class="label">Phone <em>*</em></label>
@@ -183,9 +183,8 @@
           <h4><strong>Company Info</strong></h4>
           <ul>
             <li> <strong>The Sneaker List INC</strong><br />
-              Telephone: (954) 000-0000<br />
-              E-mail: <a href="mailto:mail@companyname.com">Info@TheSneakerListInc.com</a><br />
-              Website: <a href="index.html">www.TheSneakerListInc.com</a> </li>
+              E-mail: <a href="mailto:mail@companyname.com">Contact@TheSneakerList.com</a><br />
+              Website: <a href="index.html">www.TheSneakerList.com</a> </li>
           </ul>
         </div>
         <div class="clearfix"></div>

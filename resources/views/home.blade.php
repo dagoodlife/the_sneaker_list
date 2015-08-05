@@ -128,7 +128,7 @@
                 data-delay="100"
                 data-ease="easeOutExpo"
             >
-                Many web sites in their various passages available but the majority <br /> have suffered alteration  versions have evolved over the years.
+                Many sneakers in their various passages available but the majority <br /> have suffered alteration  versions have evolved over the years.
                 
             </h5>
             
@@ -249,20 +249,20 @@
         
         <div class="counters8 animate" data-anim-type="fadeIn" data-anim-delay="300">
     
-            <div class="one_fourth"> <span id="target">1,286</span> <h4 class="roboto thin">Our <br/> Clients</h4> </div><!-- end section -->
+            <div class="one_fourth"> <span id="target">8,000+</span> <h4 class="roboto thin">Our <br/> Clients</h4> </div><!-- end section -->
             
-            <div class="one_fourth"> <span id="target2">3,862</span> <h4 class="roboto thin">Shoes <br/> Found</h4> </div><!-- end section -->
+            <div class="one_fourth"> <span id="target2">5,000+</span> <h4 class="roboto thin">Shoes <br/> Found</h4> </div><!-- end section -->
             
-            <div class="one_fourth"> <span id="target3">2,901</span> <h4 class="roboto thin">Shoes <br/> Sold</h4> </div><!-- end section -->
+            <div class="one_fourth"> <span id="target3">3,000+</span> <h4 class="roboto thin">Shoes <br/> Sold</h4> </div><!-- end section -->
             
-            <div class="one_fourth last"> <span id="target4">192k</span> <h4 class="roboto thin">Instagram <br/> Followers</h4> </div><!-- end section -->
+            <div class="one_fourth last"> <span id="target4">215k</span> <h4 class="roboto thin">Instagram <br/> Followers</h4> </div><!-- end section -->
                      
         </div>
         
         
         <div class="divider_line23"></div>
         
-        <a href="#" class="button nine"> &nbsp; Learn More &nbsp; </a>
+        <a href="/about-us" class="button nine"> &nbsp; Learn More &nbsp; </a>
            
     </div><!-- end section -->
     
@@ -295,7 +295,7 @@
         <div class="clearfix margin_top4"></div>
         
         <i class="fa fa-twitter"></i>
-        <h4>@Diddy</h4>
+        <h4>@iamdiddy</h4>
         <p>"S/O to @sneakerlistinc for always holding down me and my team with exclusive kicks!"</p>
         
         <div class="clearfix margin_top4"></div>
@@ -354,6 +354,15 @@
                         <div class="ms-slide">
                             <img src="/js/masterslider/blank.gif" data-src="images/10.jpg" alt=""/>            
                         </div>
+
+                         <div class="ms-slide">
+                            <img src="/js/masterslider/blank.gif" data-src="images/11.jpg" alt=""/>              
+                        </div>
+                        
+                        <div class="ms-slide">
+                            <img src="/js/masterslider/blank.gif" data-src="images/12.jpg" alt=""/>            
+                        </div>
+                          
                           
                     </div>
                     
@@ -367,14 +376,14 @@
     <div class="onecol_thirtyfive last right animate" data-anim-type="fadeInRight" data-anim-delay="300">
     
         <i class="fa fa-instagram"></i>
-        <h4>@princejdc</h4>
-        <p>"Feet by the pool.. @sneakerlistinc got that fire" <br/> "@sneakerlistinc got them feet pieces fire!"</p>
+        <h4>@losangelesconfidential</h4>
+        <p>"Ready for that war."</p>
         
         <div class="clearfix margin_top4"></div>
         
         <i class="fa fa-instagram"></i>
-        <h4>@everybodyhatesindia</h4>
-        <p>"Chill day. Thank you @sneakerlistinc for finding these 3s for me :)"</p>
+        <h4>@illy.il</h4>
+        <p>"RocketGame #HAW | @sneakerlistinc laced me"</p>
         
         <div class="clearfix margin_top4"></div>
         
@@ -651,7 +660,7 @@
 <div class="container">
 
     <h1 class="animate" data-anim-type="fadeIn" data-anim-delay="200">Request Your New Pair Of Sneakers <strong>Now!</strong></h1>
-    <a href="#" class="animate" data-anim-type="fadeInLeft" data-anim-delay="200">Get Started!</a>
+    <a href="/shoe-request" class="animate" data-anim-type="fadeInLeft" data-anim-delay="200">Get Started!</a>
     
 </div>
 </div><!-- end featured section 38 -->
@@ -670,7 +679,7 @@
       
         <p>Have a queston? Feel free to message us below with anyhting you have in mind! We are always glad to help out!</p>
         <br />
-        <p>Please be patient while waiting for response.  <strong>Phone General Inquiries: (954) 000-0000</strong></p>
+        <p>Please be patient while waiting for response.</p>
         <br /><br />
         
         <div class="cforms">
@@ -690,13 +699,13 @@
                 <input type="email" name="email" id="email">
             </label>
     
-            <!-- <div class="clearfix"></div>
+            <div class="clearfix"></div>
     
     
             <label class="label">Phone <em>*</em></label>
             <label class="input">
                 <input type="text" name="phone" id="phone">
-            </label> -->
+            </label>
     
             <div class="clearfix"></div>
     
@@ -732,9 +741,8 @@
         
           <ul>
             <li> <strong>The Sneaker List INC</strong><br />
-              Telephone: (954) 000-0000<br />
-              E-mail: <a href="mailto:mail@companyname.com">Info@TheSneakerListInc.com</a><br />
-              Website: <a href="index.html">www.TheSneakerListInc.com</a> </li>
+              E-mail: <a href="mailto:mail@companyname.com">Contact@TheSneakerList.com</a><br />
+              Website: <a href="index.html">www.TheSneakerList.com</a> </li>
           </ul>
           
         </div><!-- end section -->
